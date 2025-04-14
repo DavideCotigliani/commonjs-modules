@@ -6,8 +6,8 @@ const hobbies = require("./hobbies")
 //nuova funzione
 function newFunction () {
 const newObject={
-    fullName:names(),
-    hobbies:hobbies(),
+    fullName:names('Davide','Cotigliani'),
+    hobbies:hobbies('viaggiare','leggere','giocare'),
 }
 console.log(newObject);
 }

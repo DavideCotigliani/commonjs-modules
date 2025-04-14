@@ -1,5 +1,5 @@
 function hobbiesFunction (hobbyOne,hobbyTwo,hobbyThree){
-    const hobbiesResult = ['videogames','leggere','viaggiare']
+    const hobbiesResult = [hobbyOne,hobbyTwo,hobbyThree]
     return hobbiesResult
 }
 

@@ -1,7 +1,7 @@
-function namesFunction (firstName, lastName){
+function namesFunction (firstName,lastName){
     const namesResult = {
-        firstName:'Davide',
-        lastName:'Cotigliani'
+        firstName:firstName,
+        lastName:lastName
     }
 return namesResult
 }
