@@ -1,7 +1,7 @@
-function hobbies (hobbyOne,hobbyTwo,hobbyThree){
-    const hobbiesResult = [hobbyOne,hobbyTwo,hobbyThree]
+function hobbiesFunction (hobbyOne,hobbyTwo,hobbyThree){
+    const hobbiesResult = ['videogames','leggere','viaggiare']
     return hobbiesResult
 }
 
 //esporto la funzione
-module.exports = hobbies;
+module.exports = hobbiesFunction;

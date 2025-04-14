@@ -1,10 +1,10 @@
-function names (firstName, lastName){
+function namesFunction (firstName, lastName){
     const namesResult = {
-        firstName:firstName,
-        lastName:lastName
+        firstName:'Davide',
+        lastName:'Cotigliani'
     }
 return namesResult
 }
 
 //esporto la funzione del file
-module.exports = names;
+module.exports = namesFunction;
